@@ -10,4 +10,18 @@ body{
     justify-self: start;
     align-items: flex-start;
     }
-    
+    .sol{
+        height: 119px;
+        width: 119px;
+        background-image: url(assets/Sol.png);
+        border-radius: 50%;
+        background-size:cover;
+        flex-direction: row;
+        justify-content: space-between;
+         box-shadow: 4px 2px 150px #fff000 ;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+          }
+          
