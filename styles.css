@@ -111,7 +111,7 @@ padding: 0;
                    box-shadow: -4px 2px 56px #183da1;
                    left: 40%;
                    top: 40%;
-                  --rotation-time: 10s;
+                  
                    transform: translateY(-50%,-50%);
                   animation: orbit4 40s linear infinite;
   }
@@ -231,4 +231,46 @@ padding: 0;
                             from{transform: rotate(0deg)translateX(250px)rotate(0deg);}
                             to{transform: rotate(360deg)translateX(250px)rotate(-360deg);}
                             }
-                            
+                            .urano{
+                                height: 35px;
+                                width: 35px;
+                               background-image: url(assets/urano.png);
+                               background-size: 100%;
+                               border-radius: 50%;
+                               position: absolute;
+                               justify-content: space-between;
+                               box-shadow: -4px 2px 56px #1f1e1e;
+                               left: 48%;
+                               top: 48%;
+                               transform: translate(-50%,-50%);
+                               animation: orbit10 200s linear infinite;
+                               
+                               }@keyframes orbit10{
+                                from{transform: rotate(0deg)translateX(280px)rotate(0deg);}
+                                to{transform: rotate(360deg)translateX(280px)rotate(-360deg);}
+                                }
+                              
+                                .netuno{
+                                    height:30px;
+                                    width:30px;
+                                    background-image:url(assets/netuno.png);
+                                    background-size:100%;
+                                    border-radius:50%;
+                                    position: absolute;
+                                    justify-content: space-between;
+                                    box-shadow:-4px 2px 56px #111111;
+                                    left:50%;
+                                    top:50%;
+                                    transform:translate(-50%,-50%);
+                                    animation:orbit11 400s linear infinite;
+                                    
+                                    }
+                                    @keyframes orbit11{
+                                        from{transform:rotate(0deg)translateX(310px)rotate(0deg);}
+                                        to{transform:rotate(360deg)translateX(310px)rotate(-360deg);}
+                                       
+                                    }
+                                    .netuno-linha{
+                                
+                                        height: 640px;
+                                        width: 640px;}         
