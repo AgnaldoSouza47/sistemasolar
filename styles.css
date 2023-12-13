@@ -70,3 +70,29 @@ body{
                 height: 189px;
                 width: 189px;
             }
+            .venus{
+                height: 20px;
+                width: 20px;
+                background-image: url(assets/venus.png);
+                background-size: 100%;
+                flex-direction: row;
+                justify-content: space-between;
+                background-size: cover;
+                border-radius: 50%;
+                position: absolute;
+                box-shadow: -4px 2px 56px #7284b4;
+                left: 45%;
+                top: 45%;
+                transform: translate(-50%,-50%);
+                animation: orbit3 14s linear infinite;
+            
+            }@keyframes orbit3{
+                from{transform: rotate(0deg)translateX(100px)rotate(0deg);}
+                to{transform: rotate(360deg)translateX(100px)rotate(-360deg);}
+            
+            }
+            .venus-linha{ 
+                height: 375px;
+                width: 375px;/* contorno da terra */
+              
+             }
