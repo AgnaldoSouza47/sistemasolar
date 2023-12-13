@@ -24,4 +24,27 @@ body{
         top: 50%;
         transform: translate(-50%,-50%);
           }
-          
+          .mercurio{
+            height: 10%;
+            width: 10%;
+            background-image: url(assets/mercúrio\ .png);
+            border-radius: 50%;
+            flex-direction: row;
+            justify-content: space-between;
+            position: absolute;
+            box-shadow: 4px 2px 56px #ec4527;
+            left: 43%;
+            top: 43%;
+            transform: translate(-50%,-50%);
+            animation: orbit2 12s linear infinite;
+        }
+        @keyframes orbit2{
+            from{transform:rotate(0deg)translateX(70px)rotate(0deg);}
+            to{transform:rotate(360deg)translateX(70px)rotate(-360deg);} 
+           }
+           .mercurio-linha{
+            height: 205px;
+            width: 205px;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
