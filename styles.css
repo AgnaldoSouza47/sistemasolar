@@ -27,7 +27,7 @@ body{
           .mercurio{
             height: 10%;
             width: 10%;
-            background-image: url(assets/mercúrio\ .png);
+            background-image: url(assets/mercurio\ .png);
             border-radius: 50%;
             flex-direction: row;
             justify-content: space-between;
@@ -65,5 +65,8 @@ body{
                 top: 50%;
                 flex-direction: row;
                 transform: translate(-50%,-50%);
-
+            }
+            .mercurio-linha{/* dimensão do mercurio */
+                height: 189px;
+                width: 189px;
             }
