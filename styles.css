@@ -66,7 +66,7 @@ body{
                 flex-direction: row;
                 transform: translate(-50%,-50%);
             }
-            .mercurio-linha{/* dimensão do mercurio */
+            .mercurio-linha{
                 height: 189px;
                 width: 189px;
             }
@@ -93,6 +93,79 @@ body{
             }
             .venus-linha{ 
                 height: 375px;
-                width: 375px;/* contorno da terra */
-              
-             }
+                width: 375px;
+                }
+                .terra{
+                    height: 35px;
+                    width: 35px;
+                    background-image: url(assets/Terra.png);
+                   background-size: 70%;
+                   border-radius: 50%;
+                   flex-direction: row;
+                   justify-content: space-between;
+                   background-size: cover;
+                   position: absolute;
+                   box-shadow: -4px 2px 56px #183da1;
+                   left: 40%;
+                   top: 40%;
+                   transform: translateY(-50%,-50%);
+                  animation: orbit4 40s linear infinite;
+  }
+  @keyframes orbit4 {
+    from{transform: rotate(0deg)translateX(150px)rotate(0deg);}
+    to{transform: rotate(360deg)translateX(150px)rotate(-360deg);}
+    }
+    .terra-linha{
+        height: 280px;
+        width: 280px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+        }
+    .terra-linha-da-lua{
+        height: 49px;
+        width: 49px;
+        border: 1px dotted #fff;
+        
+        justify-content: space-between;
+        position: relative;
+        left: -8px;
+        top: -8px;
+        border-radius: 40px;
+           
+        }.terra-lua{
+            height: 10px;  /* lua */
+            width: 10px;
+            background-image: url(assets/Lua.png);
+            border-radius: 50%;
+            position: absolute;
+            justify-content: space-between;
+            animation: orbit 2s linear infinite;
+            box-shadow: -4px 2px 56px #4370ec;
+            transform: translate(-50%,-50%); 
+            left:40%;
+           top: 40%;
+           animation: orbit5 25s linear infinite;
+           }@keyframes orbit5{
+            from{transform: rotate(-0deg)translateX(33px)rotate(0deg);}
+            to{transform: rotate(360deg)translateX(33px)rotate(-360deg);}
+            }
+            .marte{
+                height: 30px;
+                width: 30px;
+                background-image: url(assets/Marte.png);
+                background-size: 100%;
+                border-radius: 50%;
+                justify-content: space-between;
+                position: absolute;
+                box-shadow:-4px 2px 56px #ec4527 ;
+                left: 46.5%;
+                top: 46.5%;
+                transform: translate(-50%,-50%);
+                animation: orbit6 55s linear infinite;
+                }
+                .marte-linha{
+                    height: 420px;
+                    width: 420px;
+                }
