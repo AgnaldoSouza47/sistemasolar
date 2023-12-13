@@ -48,3 +48,22 @@ body{
             justify-content: space-between;
             align-items: flex-start;
         }
+        p{
+            color:white;
+            font-family:system-ui;
+            position: absolute;
+            left: -62px;
+            top: -11px;
+            }
+            .mercurio-linha,.venus-linha,.terra-linha,.terra-lua,.marte-linha,.jupiter-linha,.saturno-linha,.anel,.urano-linha,.netuno-linha
+            
+            {
+                border-radius: 50%;
+                border:1px dotted #ddd9;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                flex-direction: row;
+                transform: translate(-50%,-50%);
+
+            }
