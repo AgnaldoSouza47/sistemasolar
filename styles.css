@@ -1,0 +1,13 @@
+body{
+    margin: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(assets/universo.png);
+    overflow: hidden;
+    padding:  auto;
+    justify-content: space-between;
+    justify-self: start;
+    align-items: flex-start;
+    }
+    
