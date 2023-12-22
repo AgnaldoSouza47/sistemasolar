@@ -1,2 +1,2 @@
 # sistemasolar
-Sistema Solar foi criado, para brincar e aprender a não esquecer a codificação
+Sistema Solar was created to not forget coding
