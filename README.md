@@ -1,2 +1,2 @@
 # sistemasolar
-Sistema Solar was created to not forget coding
+Sistema Solar was created to play and don't forget coding
